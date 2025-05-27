@@ -174,7 +174,7 @@
     </div>
 
     <script>
-        // Fitur pencarian nama tamu
+        
         const searchInput = document.getElementById("search");
         searchInput.addEventListener("keyup", function () {
             const keyword = this.value.toLowerCase();
@@ -186,7 +186,7 @@
             });
         });
 
-        // Konfirmasi Hapus Custom
+       
         function confirmDelete() {
             return confirm("Yakin ingin menghapus data tamu ini?");
         }
@@ -196,7 +196,7 @@
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script>
     function confirmDelete(button) {
-        // Ambil form terdekat dari tombol yang diklik
+        
         const form = button.closest('form');
 
         Swal.fire({
@@ -210,7 +210,7 @@
             cancelButtonText: 'Batal'
         }).then((result) => {
             if (result.isConfirmed) {
-                form.submit(); // submit form hapus
+                form.submit(); 
             }
         });
     }

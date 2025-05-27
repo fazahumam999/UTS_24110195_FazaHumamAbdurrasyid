@@ -224,8 +224,8 @@
   const spinner = document.getElementById('spinner');
 
   form.addEventListener('submit', function() {
-    submitBtn.style.display = 'none';  // sembunyikan tombol submit
-    spinner.style.display = 'inline-block'; // tampilkan spinner
+    submitBtn.style.display = 'none';  
+    spinner.style.display = 'inline-block'; 
   });
 </script>
 

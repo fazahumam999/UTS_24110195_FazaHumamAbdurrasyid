@@ -211,10 +211,10 @@
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 <script>
     flatpickr(".datepicker", {
-        dateFormat: "Y-m-d", // Format ke database
-        minDate: "today", // Tidak bisa pilih tanggal sebelum hari ini
-        altInput: true, // Tampilkan versi indah
-        altFormat: "d F Y", // Format yang ditampilkan ke user
+        dateFormat: "Y-m-d", 
+        minDate: "today", 
+        altInput: true, 
+        altFormat: "d F Y", 
     });
 </script>
 
@@ -224,8 +224,8 @@
   const spinner = document.getElementById('spinner');
 
   form.addEventListener('submit', function() {
-    submitBtn.style.display = 'none';  // sembunyikan tombol submit
-    spinner.style.display = 'inline-block'; // tampilkan spinner
+    submitBtn.style.display = 'none';  
+    spinner.style.display = 'inline-block'; 
   });
 </script>
 
